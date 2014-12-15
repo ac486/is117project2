@@ -187,79 +187,33 @@ margin-bottom:40px;
    border-radius: 10px;
    line-height:50px;
    }
-#facebookbanner a{
-   color:white;
-   text-decoration: none;
-   }
+
+
+
 #welcome{
-width:459px;
-float:left;
-font-size: 14px;
-color:#2c2c2c;
-}
-#welcomelist{
-width:459px;
-float: right;
-font-size:14px;
+text-align: center;
+font-size: 18px;
 color:#2c2c2c;
 }
 
-#heating span{
-   color: #c0392b;
-   font-size:30px;
-   }
-#heating{
+
+
+#p1{
    text-align: justify;
    font-size:16px;
    color:#2c2c2c;
    }
-#pic1{
-float:left;
-margin-left:84.5px;
-margin-right:22px;
-}
-#pic2{
-float: left;
-margin-left:22px;
-margin-right:22px;
-}
-#pic3{
-float:left;
-margin-left:22px;
-margin-right:84.5px;
-}
 
-#cooling span{
-   color:#2980b9;
-   font-size:30px;
-   }
-#cooling{
+
+#p2{
    text-align:justify;
    font-size:16px;
    color:#2c2c2c;
    
 }
 
-#pic4{
-float:left;
-margin-left:84.5px;
-margin-right:22px;
-}
-#pic5{
-float: left;
-margin-left:22px;
-margin-right:22px;
-}
-#pic6{
-float:left;
-margin-left:22px;
-margin-right:84.5px;
-}
-#about span{
-   font-size:30px;
-   color: #2c2c2c;
-   }
-#about{
+
+#p3{
    font-size:16px;
    text-align:justify;
    color:#2c2c2c;
