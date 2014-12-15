@@ -13,6 +13,53 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<script type="text/javascript">
+/**
+* Basic jQuery Validation Form Demo Code
+* Copyright Sam Deering 2012
+* Licence: http://www.jquery4u.com/license/
+*/
+(function($,W,D)
+{
+    var JQUERY4U = {};
+
+    JQUERY4U.UTIL =
+    {
+        setupFormValidation: function()
+	{
+            //form validation rules
+	    $("#register-form").validate({
+		rules: {
+		   subject:"required",
+		   email:{
+		      required:true,
+		      email:true
+		   }
+		},
+		messages: {
+		   subject: "Please enter a subject",
+		   email: "Please enter a valid email address for us to reply"
+		},
+		submitHandler:function(form){
+		   form.submit();
+		}
+            });
+	 }
+     }
+
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+        JQUERY4U.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);
+</script>
+
+    
+    
+    
+    
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -41,7 +88,34 @@
        
        <div id="block1">
        <div id="wrapper2">
-       <div id="p1"></div>
+       <div id="p1">
+          
+          <form action="" method="post" id="register-form" novalidate="novalidate">
+             <h2>Contact us</h2>
+	     <div id="form-content">
+	        <fieldset>
+		   <div class="fieldgroup">
+		      <label for="subject">Subject</label>
+		      <input type="text" name="firstname"/>
+		   </div>
+
+                   <div class="fieldgroup">
+                      <label for="email">Email</label>
+                      <input type="text" name="email"/>
+                   </div>
+                   <div class="fieldgroup">
+                      <label for="body">What would you like to say?</label>
+                      <input type="text" name="body"/>
+                   </div>
+                   <div class="fieldgroup">
+                      <p class="submitbutton ">Thanks for the feedback! We'll
+		      get back to you as soon as possible!</p>
+                      <input type="submit" value="Submit" class="submit"/>
+                   </div>
+                 </fieldset>
+	       </div>
+          </form>
+       </div>
       
        </div> <!--wrapper 2 closes here-->
        </div> <!--block1 closes here-->
