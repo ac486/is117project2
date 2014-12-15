@@ -157,7 +157,7 @@ text-align: center;
    }
 #heading {
    font-size:16px;
-   color:#8f8f8f;
+   color:#2c2c2c;
    margin-left:auto;
    margin-right: auto;
    text-align: center;
@@ -209,8 +209,8 @@ color:#2c2c2c;
    font-size:30px;
    }
 #heating{
-   text-align: center;
-   font-size:14px;
+   text-align: justify;
+   font-size:16px;
    color:#2c2c2c;
    }
 #pic1{
@@ -234,8 +234,8 @@ margin-right:84.5px;
    font-size:30px;
    }
 #cooling{
-   text-align:center;
-   font-size:14px;
+   text-align:justify;
+   font-size:16px;
    color:#2c2c2c;
    
 }
@@ -260,12 +260,17 @@ margin-right:84.5px;
    color: #2c2c2c;
    }
 #about{
-   font-size:14px;
-   text-align:center;
+   font-size:16px;
+   text-align:justify;
    color:#2c2c2c;
   
    }
 
+#footer{
+   font-size:12px;
+   text-align:center;
+   color:#5d5d5d;
+   }
 
 
 
