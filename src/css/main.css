@@ -104,7 +104,6 @@ body {
    width:980px;
    margin-left: auto;
    margin-right: auto;
-      
 }
 #wrapper2{
    width:980px;
@@ -162,32 +161,12 @@ text-align: center;
    margin-right: auto;
    text-align: center;
 }
-#heading span{
-   font-size:36px;
-   color:#5d5d5d;
-}
-
-#subheading{
-   font-size:16px;
-   text-align:center;
-   color:#3f8252
-   }
 
 #video{
 margin-right:215px ;
 margin-left:215px;
 margin-bottom:40px;
 }
-
-#facebookbanner{
-   text-align: center;
-   color: white;
-   background-color:#485e90;
-   height:50px;
-   border-radius: 10px;
-   line-height:50px;
-   }
-
 
 
 #welcome{
@@ -196,12 +175,16 @@ font-size: 18px;
 color:#2c2c2c;
 }
 
-
+#pic{
+margin-bottom:20px;
+margin-top:10px;
+}
 
 #p1{
    text-align: justify;
    font-size:16px;
    color:#2c2c2c;
+   margin-top:20px;
    }
 
 
@@ -209,7 +192,7 @@ color:#2c2c2c;
    text-align:justify;
    font-size:16px;
    color:#2c2c2c;
-   
+   margin-top:20px;
 }
 
 
@@ -217,8 +200,13 @@ color:#2c2c2c;
    font-size:16px;
    text-align:justify;
    color:#2c2c2c;
-  
+   margin-top:20px; 
    }
+
+#bottompic{
+margin-bottom:20px;
+margin-top:10px;
+}
 
 #footer{
    font-size:12px;
